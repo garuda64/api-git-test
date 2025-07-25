@@ -5,8 +5,9 @@ class CarsController < ApplicationController
             message: "my car",
             model: "Logan",
             fabricant: "Renault",
-            color: "Red",
-            office: "Caribe"
+            color: "Blue",
+            office: "Caribe",
+            year: 2023,
         }
     }
   end
