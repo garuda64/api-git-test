@@ -4,7 +4,8 @@ class CarsController < ApplicationController
         data: {
             message: "my car",
             model: "Logan",
-            fabricant: "Renault"
+            fabricant: "Renault",
+            color: "Red"
         }
     }
   end
