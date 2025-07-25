@@ -3,7 +3,8 @@ class CarsController < ApplicationController
     render json: {
         data: {
             message: "my car",
-            model: "Logan"
+            model: "Logan",
+            fabricant: "Renault"
         }
     }
   end
