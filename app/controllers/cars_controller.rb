@@ -23,4 +23,16 @@ class CarsController < ApplicationController
         }
     }
   end
+
+  def destroy
+    render json: {
+        data: {
+            message: "my car",
+            model: "Logan",
+            fabricant: "Renault",
+            color: "Red",
+            office: "Caribe"
+        }
+    }
+  end
 end
