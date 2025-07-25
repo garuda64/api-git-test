@@ -6,6 +6,7 @@ class CarsController < ApplicationController
             model: "Logan",
             fabricant: "Renault",
             color: "Red",
+            office: "Caribe",
             year: 2023,
         }
     }
